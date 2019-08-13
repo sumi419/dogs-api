@@ -1,0 +1,27 @@
+.title {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.dogsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 30rem;
+  width: 30rem;
+  align-items: center;
+}
+
+.dog {
+  /* object-fit: contain;
+  height: 200px;
+  width: 200px; */
+  height: 33rem;
+  width: auto;
+}
